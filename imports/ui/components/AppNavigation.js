@@ -10,7 +10,7 @@ import container from '../../modules/container';
 const renderNavigation = hasUser => (hasUser ? <AuthenticatedNavigation /> : <PublicNavigation />);
 
 const AppNavigation = ({ hasUser }) => (
-  <Navbar>
+  <Navbar inverse>
     <Navbar.Header>
       <Navbar.Brand>
         <Link to="/">SAA_website</Link>

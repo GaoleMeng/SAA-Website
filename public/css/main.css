@@ -1,6 +1,6 @@
 .sectionOne {
   margin-top: -20px;
-  background: url(../img/theGroup.jpg) #cccccc no-repeat center center;
+  background: url(../img/theGroup.JPG) #cccccc no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -12,7 +12,7 @@
 }
 
 .sectionOne-info {
-  background-color:rgba(150,150,150,0.5);
+  background-color:rgba(41,36,33,0.5);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -20,7 +20,7 @@
   width: 100.7%;
   margin-left: 0px;
   margin-right: 0px;
-  margin-bottom: 1%;
+  margin-bottom: 7%;
 }
 
 .titletext {

@@ -1,10 +1,11 @@
 import React from 'react';
 import { LinkContainer } from 'react-router-bootstrap';
 import { Nav, NavItem } from 'react-bootstrap';
+import { Link } from 'react-router-dom'
 
 const PublicNavigation = () => (
 	<div>
-		<Nav>
+    <Nav>
       <LinkContainer to="/home">
         <NavItem eventKey={ 1 } href="/home">Home</NavItem>
       </LinkContainer>
@@ -18,15 +19,15 @@ const PublicNavigation = () => (
         <NavItem eventKey={ 4 } href="/newsletter">News Letter</NavItem>
       </LinkContainer>
     </Nav>
-	  <Nav pullRight>
-	    <LinkContainer to="/signup">
-	      <NavItem eventKey={ 5 } href="/signup">Sign Up</NavItem>
-	    </LinkContainer>
-	    <LinkContainer to="/login">
-	      <NavItem eventKey={ 6 } href="/login">Log In</NavItem>
-	    </LinkContainer>
-	  </Nav>
-	</div>
+    <Nav pullRight>
+      <LinkContainer to="/signup">
+        <NavItem eventKey={ 5 } href="/signup">Sign Up</NavItem>
+      </LinkContainer>
+      <LinkContainer to="/login">
+        <NavItem eventKey={ 6 } href="/login">Log In</NavItem>
+      </LinkContainer>
+    </Nav>
+  </div>
 );
 
 export default PublicNavigation;
