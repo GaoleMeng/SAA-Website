@@ -20,6 +20,7 @@ class Gallery extends Component {
     this.handleClickImage = this.handleClickImage.bind(this);
     this.openLightbox = this.openLightbox.bind(this);
   }
+
   openLightbox (index, event) {
     event.preventDefault();
     this.setState({
