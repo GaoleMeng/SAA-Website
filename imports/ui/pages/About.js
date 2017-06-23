@@ -192,6 +192,12 @@ In addition, SJTU-SAA-UM also serves as a community builder by connecting cross-
 		        <p>Vice President for Development & Outreach</p>
 		      </Thumbnail>
 		    </Col>
+		    <Col xs={6} sm={4} md={3} className="wow fadeInDown" data-wow-delay="0.2s">
+		      <Thumbnail src="/img/gaole.png" alt="242x200">
+		        <h3>Gaole Meng</h3>
+		        <p>Photographer & Digital Media</p>
+		      </Thumbnail>
+		    </Col>
 		</Row>
 		<h2 className="page-header">Sponsors:</h2>
 		<Row>
